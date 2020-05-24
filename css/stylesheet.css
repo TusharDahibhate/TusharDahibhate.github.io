@@ -1,6 +1,10 @@
 @import "https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700";
 @import "https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,500,600,700";
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   background: #2a1b3d;
@@ -166,6 +170,8 @@ div.content {
   margin-top: 10%;
   padding: 20px;
   margin-left: 30px;
+  height: 100%;
+  vertical-align: middle;
 }
 
 #intro1,
@@ -177,4 +183,29 @@ div.content {
 
 #intro1 {
   color: #a4b3b6;
+}
+
+.education {
+  color: #a4b3b6;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1em;
+  font-weight: 400;
+  font-size: 20px;  
+  padding: 20px;
+  margin-left: 30px;
+  height: 100%;  
+  margin-top: 10%;
+}
+
+#ncsuLogo,
+#sppuLogo {
+  height: 100px;
+  width: 200px;
+  float: left;
+}
+
+.education p {
+  font-weight: 700;
+  color: #8962ba;
+  font-size: 25px;
 }
